@@ -1,0 +1,39 @@
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+dist/
+build/
+coverage/
+
+# MongoDB
+data/db/
+*.pid
+
+# Archivos específicos del proyecto
+*.env.backup
+*env.example
+.env.*.local
